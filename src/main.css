@@ -1,0 +1,12 @@
+body {
+  margin: 10px auto;
+  background: cyan;
+  max-width: 800px;
+  /* 新增 */
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
