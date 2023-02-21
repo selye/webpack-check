@@ -1,5 +1,4 @@
-import "./main.css";
+import dianzan from "./dianzan";
+import sanlian from "./yijiansanlian";
 
-const a = "hello Item";
-console.log(a);
-module.exports = a;
+console.log("下次一定");

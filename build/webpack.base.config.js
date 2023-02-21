@@ -4,7 +4,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 console.log("process.env.NODE_ENV=", process.env.NODE_ENV);
 const config = {
-  mode: "development", // 模式
   entry: "./src/index.js", // 打包入口地址
   // devServer: {
   //   static: path.resolve(__dirname, "public"),
