@@ -33,5 +33,12 @@ const obj = {
 };
 const obj2 = shallowClone(obj);
 obj2.name = "rose";
-console.log(obj);
-console.log(obj2);
+// console.log(obj);
+// console.log(obj2);
+
+/* 解构赋值 */
+const arr = [1, 2, 3, 4, 5];
+const arr1 = [...arr];
+arr1[0] = 11;
+console.log(arr);
+console.log(arr1);
