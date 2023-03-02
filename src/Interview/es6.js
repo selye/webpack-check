@@ -40,5 +40,20 @@ obj2.name = "rose";
 const arr = [1, 2, 3, 4, 5];
 const arr1 = [...arr];
 arr1[0] = 11;
-console.log(arr);
-console.log(arr1);
+
+/* 类 */
+class Animal {
+  move(distance) {
+    console.log(`moved${distance}m`);
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("wolf");
+  }
+}
+
+const dog = new Dog();
+dog.move();
+dog.bark();
