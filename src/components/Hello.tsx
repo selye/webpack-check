@@ -1,4 +1,5 @@
 import * as React from "react";
+import { FullPageUpdate } from "./fullPage";
 
 interface HelloProps {
   compire: string;
@@ -30,7 +31,7 @@ export const Hello = (props: HelloProps) => {
       <h3>
         hello from {props.compire} and {props.frameWork}
       </h3>
-      <div></div>
+      <FullPageUpdate />
     </>
   );
 };
