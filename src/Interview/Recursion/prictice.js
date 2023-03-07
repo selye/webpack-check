@@ -76,14 +76,23 @@ function ReverseString(str) {
         return str;
     }
     console.log(str);
-    return ReverseString(str.slice(1));
+    return ReverseString(str.slice(1)) + str[0];
 }
-console.log(ReverseString("hello"));
+// console.log(ReverseString("hello"))
 /*
 
 1. hello
-2. elloh
-3. llohe
-4. lohel
+2. ReverseString(ello)   +  h;
+3. ReverseString(llo) + e + h
+3. ReverseString(lo) + l + e + h
+4. o + l + l + e + h
+4. o ll eh
 5. ohell
 */
+function factorial(num) {
+    if (num <= 1) {
+        return 1;
+    }
+    return factorial(num - 1) + num;
+}
+console.log(factorial(5));

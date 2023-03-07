@@ -97,7 +97,12 @@ webpack构建速度优化有哪些方案？
 
 
 前后端分离的历史？分离模式带来的好处和坏处有哪些？
-答：
+答:  
+
+ES module和 CommonJS的区别
+答: 语法层面：CommonJS通过module.export导出，通过require导入。ESmodule通过export导出， 通过import导入。  
+CommonJS是运行时加载模块，ESmodule是编译期间就确定模块的依赖。  
+CommonJS加载的时整个模块，ESmodule可以单独加载其中某个接口。
 
 
 # http篇

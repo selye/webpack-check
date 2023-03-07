@@ -93,7 +93,7 @@ function ReverseString(str: string): string {
   return ReverseString(str.slice(1)) + str[0]
 }
 
-console.log(ReverseString("hello"))
+// console.log(ReverseString("hello"))
 /* 
 
 1. hello
@@ -104,4 +104,23 @@ console.log(ReverseString("hello"))
 4. o ll eh
 5. ohell
 */
+
+/* 
+
+fac(4) + 5
+fac(3) + 4 + 5
+fac(2) + 3 + 4 + 5
+fac(1) + 2 + 3 + 4 + 5
+1 + 2 + 3 + 4 + 5
+
+*/
+
+function factorial(num: number): number {
+  if (num <= 1) {
+    return 1
+  }
+  return factorial(num - 1) + num
+}
+
+console.log(factorial(5))
 
