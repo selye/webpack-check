@@ -11,11 +11,15 @@ module.exports = {
     static: path.resolve(__dirname, "public"),
     compress: true,
     port: 8080,
+    historyApiFallback: true,
   },
   output: {
     // filename: "[name].bundle.js", // 输出文件名
     // path: path.join(__dirname, "dist"), // 输出文件目录
     publicPath: "/",
+  },
+  optimization: {
+    runtimeChunk: "single",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"],
