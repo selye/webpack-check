@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Timer } from "../components/Timer";
 
 const SearchList = () => {
   const [users, setUsers] = useState(null);
@@ -62,6 +63,7 @@ export const Hooks = () => {
       <p>{count}</p>
       <button onClick={handleIncrement}>+</button>
       <SearchList />
+      <Timer />
     </div>
   );
 };

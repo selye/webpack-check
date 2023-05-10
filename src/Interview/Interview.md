@@ -94,7 +94,7 @@ hooks可以在不使用class的情况下使用state以及其它的React特性，
 ## React 中受控组件和非受控组件的区别？
 
 ## React Context
-答：react主要通过props传递数据，维持单向数据流，这样使得组件之间的
+答：react主要通过props传递数据，维持单向数据流，这样使得组件之间的数据易于管理
 
 # 工程化篇
 webpack构建速度优化有哪些方案？
